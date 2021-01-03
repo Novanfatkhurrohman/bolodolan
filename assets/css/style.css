@@ -88,7 +88,13 @@ header .btn-get-started:hover {
   min-height: 540px;
   background: #051334;
   margin-top: -50px;
-  margin-bottom: -230px;
+  margin-bottom: -250px;
+
+  /* min-height: 540px;
+  background: #051334;
+  margin-top: 450px;
+  margin-bottom: 250px;
+  padding-bottom: 50px; */
 }
 
 .section-popular .section-popular-heading {
@@ -105,6 +111,7 @@ header .btn-get-started:hover {
   font-weight: bold;
 }
 
+/* hero pilihan */
 .section-popular-content .section-popular-travel .card-travel {
   min-height: 380px;
   background: #fff;
@@ -133,21 +140,9 @@ header .btn-get-started:hover {
   color: #fff;
 }
 
-.section-networks {
-  background-color: #fff;
-  margin-top: -170px;
-  padding-top: 240px;
-  padding-bottom: 50px;
-}
+/* akhir Hero Pilihan */
 
-.section-networks h2 {
-  font-family: 'Playfair Display', serif;
-  font-weight: bold;
-}
 
-.section-networks img {
-  max-width: 100%;
-}
 
 .section-testimonials-heading {
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
@@ -414,81 +409,69 @@ header .btn-get-started:hover {
   padding-right: 30px;
 }
 
-.container satu {
-  position: absolute;
-  width: 1240px;
-  height: 571px;
-  left: 100px;
-  top: 1498px;
-
-  background: #FFFFFF;
+.section-content {
+  background-color: #fff;
+  margin-top: 30px;
+  padding-bottom: 5px;
+  text-align: right;
+  margin-bottom: 50px;
 }
 
-.ilusatu {
-  position: absolute;
+.section-content img {
   width: 151px;
   height: 173px;
   left: 122px;
+}
 
+.section-pilihan {
+  min-height: 540px;
+  background: #051334;
+  margin-top: 10px;
+  margin-bottom: 250px;
+  padding-bottom: 50px;
 
 }
 
-.parasatu {
-  position: absolute;
-  width: 600px;
-  height: 111px;
-  top: 50px;
-
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 21px;
-  line-height: 37px;
+.section-pilihan .section-pilihan-bolo .card-bolo {
+  min-height: 380px;
+  background: #fff;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-.iludua {
-  position: absolute;
-  width: 260px;
-  height: 173px;
-  left: 950px;
-  top: 110px;
+.section-pilihan .section-pilihan-bolo .card-bolo .travel-country {
+  font-size: 18px;
+  color: #fff;
 }
 
-.paradua {
-  position: absolute;
-  width: 600px;
-  height: 111px;
-  left: 350px;
-  top: 180px;
-
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 21px;
-  line-height: 37px;
+.section-pilihan .section-pilihan-bolo .card-bolo .travel-location {
+  font-size: 26px;
+  color: #fff;
 }
 
-.ilutiga {
-  position: absolute;
-  width: 162px;
-  height: 152px;
-  left: 160px;
-  top: 280px;
-
+.section-pilihan .section-pilihan-bolo .card-bolo .travel-button .btn-travel-details {
+  background-color: #FF9E53;
+  color: #fff;
 }
 
-.paratiga {
-  position: absolute;
-  width: 657px;
-  height: 111px;
-  left: 340px;
-  top: 320px;
-
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 21px;
-  line-height: 37px;
+.section-pilihan .section-pilihan-bolo .card-bolo .travel-button .btn-travel-details:hover {
+  color: #fff;
 }
 
-/*# sourceMappingURL=main.css.map */
+.section-networks {
+  background-color: #fff;
+  margin-top: -200px;
+  padding-bottom: 5px;
+}
+
+.section-networks h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
