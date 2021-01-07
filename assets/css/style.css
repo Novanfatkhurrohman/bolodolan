@@ -240,6 +240,7 @@ header .btn-get-started:hover {
 .section-details-content .card-details {
   padding: 30px;
   border-radius: 11px;
+  margin-bottom: 50px;
 }
 
 .section-details-content .card-details .trip-informations th {
@@ -475,3 +476,44 @@ header .btn-get-started:hover {
 .section-networks img {
   max-width: 100%;
 }
+
+/* milik galery */
+.testimoni {
+  min-height: 540px;
+  background: #051334;
+  margin-top: 50px;
+  margin-bottom: 250px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.testimoni .section-pilihan-bolo .card-bolo {
+  min-height: 280px;
+  background: #fff;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.testimoni .section-pilihan-bolo .card-bolo .travel-country {
+  font-size: 18px;
+  color: #fff;
+}
+
+.testimoni .section-pilihan-bolo .card-bolo .travel-location {
+  font-size: 26px;
+  color: #fff;
+}
+
+.testimoni .section-pilihan-bolo .card-bolo .travel-button .btn-travel-details {
+  background-color: #FF9E53;
+  color: #fff;
+}
+
+.testimoni.section-pilihan-bolo .card-bolo .travel-button .btn-travel-details:hover {
+  color: #fff;
+}
+
+/* milik galerry */

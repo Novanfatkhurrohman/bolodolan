@@ -2,180 +2,181 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/all.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Montserrat:ital,wght@0,200;0,300;0,600;1,600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Montserrat:ital,wght@0,200;0,300;0,600;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!-- Awal navbar -->
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/heri.png" alt="" />
+  <!-- Awal navbar -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/heri.png" alt="" />
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu -->
+      <div class="collapse navbar-collapse" id="navb">
+        <ul class="navbar-nav ml-auto mr-3">
+          <li class="nav-item mx-md-2">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a class="nav-link" href="paket.html">Paket Travel</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Services
             </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navb">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Menu -->
-            <div class="collapse navbar-collapse" id="navb">
-                <ul class="navbar-nav ml-auto mr-3">
-                    <li class="nav-item mx-md-2">
-                        <a class="nav-link active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item mx-md-2">
-                        <a class="nav-link" href="#">Paket Travel</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Services
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="tours.html">Tours</a>
-                            <a class="dropdown-item" href="gallery.html">Gallery</a>
-                            <a class="dropdown-item" href="opentrips.html">OpenTrip</a>
-                        </div>
-                    </li>
-                    <li class="nav-item mx-md-2">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="tours.html">Tours</a>
+              <a class="dropdown-item" href="gallery.html">Gallery</a>
+              <a class="dropdown-item" href="opentrips.html">OpenTrip</a>
             </div>
-    </div>
-    </nav>
-    </div>
-    <!-- Akhir Naavbar -->
+          </li>
+          <li class="nav-item mx-md-2">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+  </div>
+  </nav>
+  </div>
+  <!-- Akhir Naavbar -->
 
-    <!-- Awal Gallery -->
-    <section class="gallery">
-            <div class="container">
-              <div class="section-pilihan-bolo row justify-content-center">
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="card-bolo text-center d-flex flex-column"
-                    style="background-image: url('assets/images/travel-3.jpg');">
-                    <div class="travel-country">INDONESIA</div>
-                    <div class="travel-location">BOROBUDUR</div>
-                    <div class="travel-button mt-auto">
-                      <a href="details.html" class="btn btn-travel-details px-4">
-                        View Details
-                      </a>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="card-bolo text-center d-flex flex-column"
-                    style="background-image: url('assets/images/travel-3.jpg');">
-                    <div class="travel-country">INDONESIA</div>
-                    <div class="travel-location">BOROBUDUR</div>
-                    <div class="travel-button mt-auto">
-                      <a href="details.html" class="btn btn-travel-details px-4">
-                        View Details
-                      </a>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="card-bolo text-center d-flex flex-column"
-                    style="background-image: url('assets/images/travel-3.jpg');">
-                    <div class="travel-country">INDONESIA</div>
-                    <div class="travel-location">BOROBUDUR</div>
-                    <div class="travel-button mt-auto">
-                      <a href="details.html" class="btn btn-travel-details px-4">
-                        View Details
-                      </a>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="card-bolo text-center d-flex flex-column"
-                    style="background-image: url('assets/images/travel-3.jpg');">
-                    <div class="travel-country">INDONESIA</div>
-                    <div class="travel-location">BOROBUDUR</div>
-                    <div class="travel-button mt-auto">
-                      <a href="details.html" class="btn btn-travel-details px-4">
-                        View Details
-                      </a>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="card-bolo text-center d-flex flex-column"
-                    style="background-image: url('assets/images/travel-3.jpg');">
-                    <div class="travel-country">INDONESIA</div>
-                    <div class="travel-location">BOROBUDUR</div>
-                    <div class="travel-button mt-auto">
-                      <a href="details.html" class="btn btn-travel-details px-4">
-                        View Details
-                      </a>
-                    </div>
-                  </div> 
-                </div>
-        
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="card-bolo text-center d-flex flex-column"
-                    style="background-image: url('assets/images/travel-3.jpg');">
-                    <div class="travel-country">INDONESIA</div>
-                    <div class="travel-location">BOROBUDUR</div>
-                    <div class="travel-button mt-auto">
-                      <a href="details.html" class="btn btn-travel-details px-4">
-                        View Details
-                      </a>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="card-bolo text-center d-flex flex-column"
-                    style="background-image: url('assets/images/travel-3.jpg');">
-                    <div class="travel-country">INDONESIA</div>
-                    <div class="travel-location">BOROBUDUR</div>
-                    <div class="travel-button mt-auto">
-                      <a href="details.html" class="btn btn-travel-details px-4">
-                        View Details
-                      </a>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="card-bolo text-center d-flex flex-column"
-                    style="background-image: url('assets/images/dua.jpg');">
-                    <div class="travel-country">INDONESIA</div>
-                    <div class="travel-location">BOROBUDUR</div>
-                    <div class="travel-button mt-auto">
-                      <a href="details.html" class="btn btn-travel-details px-4">
-                        View Details
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="text-right"> <br>
-                <p>lkahdflahflahyfoi</p>
+  <!-- Awal Gallery -->
+  <main>
+    <section class="testimoni">
+      <div class="container">
+        <div class="section-pilihan-bolo row justify-content-center">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-bolo text-center d-flex flex-column"
+              style="background-image: url('assets/images/travel-3.jpg');">
+              <div class="travel-country">INDONESIA</div>
+              <div class="travel-location">BOROBUDUR</div>
+              <div class="travel-button mt-auto">
+                <a href="details.html" class="btn btn-travel-details px-4">
+                  View Details
+                </a>
               </div>
             </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-bolo text-center d-flex flex-column"
+              style="background-image: url('assets/images/travel-3.jpg');">
+              <div class="travel-country">INDONESIA</div>
+              <div class="travel-location">BOROBUDUR</div>
+              <div class="travel-button mt-auto">
+                <a href="details.html" class="btn btn-travel-details px-4">
+                  View Details
+                </a>
+              </div>
             </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-bolo text-center d-flex flex-column"
+              style="background-image: url('assets/images/travel-3.jpg');">
+              <div class="travel-country">INDONESIA</div>
+              <div class="travel-location">BOROBUDUR</div>
+              <div class="travel-button mt-auto">
+                <a href="details.html" class="btn btn-travel-details px-4">
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-bolo text-center d-flex flex-column"
+              style="background-image: url('assets/images/travel-3.jpg');">
+              <div class="travel-country">INDONESIA</div>
+              <div class="travel-location">BOROBUDUR</div>
+              <div class="travel-button mt-auto">
+                <a href="details.html" class="btn btn-travel-details px-4">
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-bolo text-center d-flex flex-column"
+              style="background-image: url('assets/images/travel-3.jpg');">
+              <div class="travel-country">INDONESIA</div>
+              <div class="travel-location">BOROBUDUR</div>
+              <div class="travel-button mt-auto">
+                <a href="details.html" class="btn btn-travel-details px-4">
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-bolo text-center d-flex flex-column"
+              style="background-image: url('assets/images/travel-3.jpg');">
+              <div class="travel-country">INDONESIA</div>
+              <div class="travel-location">BOROBUDUR</div>
+              <div class="travel-button mt-auto">
+                <a href="details.html" class="btn btn-travel-details px-4">
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-bolo text-center d-flex flex-column"
+              style="background-image: url('assets/images/travel-3.jpg');">
+              <div class="travel-country">INDONESIA</div>
+              <div class="travel-location">BOROBUDUR</div>
+              <div class="travel-button mt-auto">
+                <a href="details.html" class="btn btn-travel-details px-4">
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-bolo text-center d-flex flex-column"
+              style="background-image: url('assets/images/dua.jpg');">
+              <div class="travel-country">INDONESIA</div>
+              <div class="travel-location">BOROBUDUR</div>
+              <div class="travel-button mt-auto">
+                <a href="details.html" class="btn btn-travel-details px-4">
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-right"> <br>
+          <p>lkahdflahflahyfoi</p>
+        </div>
+      </div>
+      </div>
     </section>
-    <!-- Akhir Gallery -->
+  </main>
+  <!-- Akhir Gallery -->
 
-     <!-- Awalan Footer -->
+  <!-- Awalan Footer -->
   <footer class="section-footer mt-5 mb-4 border-top">
     <div class="container pt-5 pb-5">
       <div class="row justify-content-center">
@@ -240,6 +241,11 @@
     </div>
   </footer>
   <!--Akhiran Footer -->
+
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/all.js"></script>
 
 </body>
 
