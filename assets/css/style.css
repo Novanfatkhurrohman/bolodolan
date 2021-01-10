@@ -515,5 +515,12 @@ header .btn-get-started:hover {
 .testimoni.section-pilihan-bolo .card-bolo .travel-button .btn-travel-details:hover {
   color: #fff;
 }
+.card-paket {
+    padding: 30px;
+    border-radius: 11px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+  }
 
 /* milik galerry */
